@@ -1,0 +1,1 @@
+echo "Kabzhan Shynghys"
