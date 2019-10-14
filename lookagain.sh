@@ -1,1 +1,1 @@
-find . -name "*.sh" | cut -d. -f2 -b 2-
+find . -name '*.sh' | cut -f2 -d '.' | sed 's#/##g'
