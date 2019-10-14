@@ -1,2 +1,2 @@
-echo "Hello Shynghys"
+echo "Hello Shynghys!"
 
