@@ -1,1 +1,3 @@
-curl https://raw.githubusercontent.com/kigiri/superhero-api/master/api/all.json jq select.(id="HERO_ID").replace(/"/g, "") 
+
+curl https://raw.githubusercontent.com/kigiri/superhero-api/master/api/all.json | jq 'map(select(.id="HERO_ID"))' | sed 's/".*//'
+
