@@ -1,1 +1,1 @@
-ls -l
+ls -l | awk '{print NR, $0}'
