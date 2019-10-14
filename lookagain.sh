@@ -1,1 +1,1 @@
-find . -name "*.sh" | cut -c 3-7
+find . -name "*.sh" | cut -d. -f2
