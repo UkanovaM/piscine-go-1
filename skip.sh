@@ -1,1 +1,1 @@
-ls -l | awk '{print NR, $0}'
+ls -l | awk 'NR%2==0'
