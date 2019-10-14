@@ -1,2 +1,1 @@
-ls -p | grep -v / | tr '\n' ','
-
+ls -m -p -t | sed 's/ //g'
