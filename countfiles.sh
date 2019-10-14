@@ -1,1 +1,1 @@
-echo "12"
+ls -A | wc -l
