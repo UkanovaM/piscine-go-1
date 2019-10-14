@@ -1,1 +1,1 @@
-echo "Kabzhan Shynghys"
+echo "Dartey Henv"
